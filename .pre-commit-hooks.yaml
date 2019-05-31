@@ -1,0 +1,6 @@
+- id: black-formatter
+  name: Black Formatter
+  description: Checks the files with Black formatter.
+  entry: black-formatter
+  language: python
+  files: \.(py|pyi)$
