@@ -1,5 +1,5 @@
 - id: black-formatter
   name: black formatter
-  entry: "scripts/black-formatter.sh"
+  entry: "aaascripts/black-formatter.sh"
   language: script
   types: [python]
