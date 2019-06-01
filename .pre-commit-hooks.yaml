@@ -8,4 +8,4 @@
   name: flake8 linter
   entry: scripts/flake8.sh
   language: script
-  files: [python]
+  type: [python]
