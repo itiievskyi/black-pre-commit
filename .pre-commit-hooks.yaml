@@ -3,3 +3,9 @@
   entry: scripts/black-formatter.sh
   language: script
   types: [python]
+
+- id: flake8
+  name: flake8 linter
+  entry: flake8
+  language: system
+  types: [python]
