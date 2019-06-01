@@ -1,4 +1,4 @@
-- id: black-formatter
+- id: black
   name: black formatter
   entry: scripts/black-formatter.sh
   language: script
