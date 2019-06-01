@@ -8,11 +8,12 @@
   name: flake8 linter
   entry: scripts/flake8.sh
   language: script
-  type: [python]
+  types: [python]
   stages: [push]
 
 - id: pytest
   name: pytest (quiet, stops on first failure)
   entry: scripts/pytest.sh
   language: script
-  type: [python]
+  types: [python]
+  stages: [push]
