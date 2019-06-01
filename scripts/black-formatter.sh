@@ -13,6 +13,6 @@ unstaged=$(git diff --name-only | grep -o '.*.py$')
 # if there is a file existed in both lists, we will stage it (via `git add`)
 for item in $unstaged; do
     if [[ $staged =~  ([[:<:]]$item[[:>:]])  ]] ; then
-        echo $item
+        git add $item
     fi
 done
