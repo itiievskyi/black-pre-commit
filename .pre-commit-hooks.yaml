@@ -9,11 +9,9 @@
   entry: scripts/flake8.sh
   language: script
   types: [python]
-  stages: [push]
 
 - id: pytest
   name: pytest (quiet, stops on first failure)
   entry: scripts/pytest.sh
   language: script
   types: [python]
-  stages: [push]
