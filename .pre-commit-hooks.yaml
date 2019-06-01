@@ -1,4 +1,4 @@
-- id: black-formatter
+- id: black
   name: black formatter
   entry: scripts/black-formatter.sh
   language: script
@@ -7,5 +7,11 @@
 - id: flake8
   name: flake8 linter
   entry: scripts/flake8.sh
+  language: script
+  type: [python]
+
+- id: pytest
+  name: pytest (quiet, stops on first failure)
+  entry: scripts/pytest.sh
   language: script
   type: [python]
